@@ -1,5 +1,5 @@
 ﻿//informem o valor do IRPF a ser pago de acordo com o salário informado. Utilize a tabela real de desconto do IRPF.
-
+/*
 try
 {
     Console.WriteLine("Informe seu nome: ");
@@ -33,3 +33,14 @@ catch (Exception e)
     Console.WriteLine(e.StackTrace);
 }
 
+*/
+
+using ConceitosBasicos.uteis;
+
+SomaDoisNumeros somaDoisNumeros = new SomaDoisNumeros();
+int resultado = somaDoisNumeros.Somar(20, 22);
+Console.WriteLine($"O resultado é {resultado}");
+
+
+int milimetros = MetrosMilimetros.Converter(2);
+Console.WriteLine(milimetros);
